@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <!-- MAIN -->
+    <main>
+        <div class="container">
+            <!-- MODALE INFO -->
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel"> INFORMAZIONI GENERALI:</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <li class="list-group-item"><h6>Data ordine:</h6>28/02/2022</li>
+                            <li class="list-group-item"><h6>Valuta:</h6>Euro</li>
+                            <li class="list-group-item"><h6>Corriere:</h6>Bartolini</li>
+                            <li class="list-group-item"><h6>Cliente:</h6>Benedetta Parodi</li>
+                            <li class="list-group-item"><h6>ID cliente:</h6>#12345</li>
+                            <li class="list-group-item"><h6>Stato ordine:</h6>Completato</li>
+                            <li class="list-group-item"><h6>Totale sconti:</h6>0€</li>
+                            <li class="list-group-item"><h6>Totale spedizione:</h6>10€</li>
+                            <li class="list-group-item"><h6>Totale incassato:</h6>70€</li>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- / MODALE INFO -->
+
+            <!-- MODALE CONSEGNA -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">INDIRIZZO CONSEGNA:</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <li class="list-group-item"><h6>Nome e Cognome:</h6>Benedetta Parodi</li>
+                        <li class="list-group-item"><h6>Indirizzo:</h6>Via Mondini 10</li>
+                        <li class="list-group-item"><h6>CAP:</h6>38061</li>
+                        <li class="list-group-item"><h6>Città:</h6>Ala</li>
+                        <li class="list-group-item"><h6>Nazione:</h6>Italia</li>
+                        <li class="list-group-item"><h6>Telefono:</h6>3453500573</li>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+            <!-- / MODALE CONSEGNA -->
+        </div>
+            <!-- DETTAGLIO COLLO -->
+            <div class="list-product-panel">
+                <div class="product">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-md-offset-1">
+                            <h1 class="text-center">DETTAGLIO COLLO MASTER</h1>
+                            <h5 class="text-center">ORDINE N°654</h5>
+                            <h5 class="text-center">TOTALE PRODOTTI: 6</h5></td>
+                                        
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Prodotti</th>
+                                        <th>Quantità acquistata:</th>
+                                        <th class="text-center">Prezzo:</th>
+                                        <th class="text-center">Totale:</th>
+                                        <th> </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="col-sm-8 col-md-6">
+                                        <div class="media">
+                                            <img class="media-object" src="https://www.nuovocentrorisparmio.it/wp-content/uploads/2019/09/Cucina-Leggera-Padella-%C3%98-cm-20.jpg" style="width: 72px; height: 72px;"> 
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Padella</h4>
+                                                <p class="media-heading"> COD: 226</p>
+                                                <span>Status: </span><span class="text-success"><strong>In Stock 50pz</strong></span>
+                                            </div>
+                                        </div></td>
+                                        <td class="col-sm-1 col-md-1" style="text-align: center">
+                                            <h3>x3</h3>
+                                        </td>
+                                        <td class="col-sm-1 col-md-1 text-center"><strong>€10,00</strong></td>
+                                        <td class="col-sm-1 col-md-1 text-center"><strong>€30,00</strong></td>
+                                        <td class="col-sm-1 col-md-1">
+                                    </tr>
+                                    <tr>
+                                        <td class="col-md-6">
+                                            <div class="media">
+                                                <img class="media-object" src="https://m.media-amazon.com/images/I/71bCzPPhzCL._AC_SX679_.jpg" style="width: 72px; height: 72px;"> 
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Piatti ceramica</h4>
+                                                    <p class="media-heading"> COD: 234</p>
+                                                    <span>Status: </span><span class="text-success"><strong>In Stock 200pz</strong></span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="col-md-1" style="text-align: center">
+                                            <h3>x2</h3>
+                                        </td>
+                                        <td class="col-md-1 text-center"><strong>€5,00</strong></td>
+                                        <td class="col-md-1 text-center"><strong>€10,00</strong></td>
+                                        <td class="col-md-1">
+                                       
+                                    </tr>
+                                    <tr>
+                                        <td class="col-sm-8 col-md-6">
+                                        <div class="media">
+                                            <img class="media-object" src="https://www.mopita.it/wp-content/uploads/Mopita-4-coltelli-cucina-neri-ambientata.jpg" style="width: 72px; height: 72px;"> 
+                                            <div class="media-body">
+                                                <h4 class="media-heading"> Set Coltelli</h4>
+                                                <p class="media-heading"> COD: 238</p>
+                                                <span>Status: </span><span class="text-success"><strong>In Stock 100pz</strong></span>
+                                            </div>
+                                        </div></td>
+                                        <td class="col-sm-1 col-md-1" style="text-align: center">
+                                            <h3>x1</h3>
+                                        </td>
+                                        <td class="col-sm-1 col-md-1 text-center"><strong>€20,00</strong></td>
+                                        <td class="col-sm-1 col-md-1 text-center"><strong>€20,00</strong></td>
+                                        <td class="col-sm-1 col-md-1">
+                                    </tr> 
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- / DETTAGLIO COLLO -->
+            
+            <!-- PANNELLO IPHONE -->
+            <div class="pannello">
+                <div class="iphone-bar"></div>
+                <h2 class="text-center">PANNELLO DI CONTROLLO</h2>
+                <div class="app">
+                    <div class="app-info">
+                        <button type="button" style=" width: 90px; height: 90px; border: 2px solid black; background-color: royalblue; " class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                        <i class="fa-solid fa-circle-info " style="font-size: 50px; "></i>
+                        </button>
+                        <p class="text-center">INFO</p>
+                    </div>
+                    <div class="adress-info">
+                        <button type="button" style=" width: 90px; height: 90px; border: 2px solid black; background-color: royalblue; " class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            <i class="fas fa-shipping-fast" style="font-size: 50px;"></i>
+                        </button>
+                        <p class="text-center">CONSEGNA</p>
+                    </div>
+                </div>
+                <div class="order-state d-flex justify-content-around" style="background-color: blanchedalmond;">
+                    <div class="state-order">
+                        <h4>Stato ordine:</h4><select name="Stato" id="stato-ordine">
+                        <option value="Completato">Completato</option>
+                        <option value="corso">In corso</option>
+                         <option value="Incompleto">Incompleto</option></select>
+                    </div>
+                    <div class="storic-order">
+                        <h4>Storico ordine:</h4>
+                        <p style="color: red;">28/02 ore 14:00 "Incompleto"</p>
+                        <p style="color: orange;">28/02 ore 16:00 "In corso"</p>
+                    </div>
+                </div>
+                <div class="tracking-code text-center mt-4 ">
+                    <h4>Tracking Code:</h4><input type="text" style="width: 150px; height: 40px;"><button type="button" class="btn btn-dark btn-sm m-2 " style="height: 30px;">Conferma</button>
+                </div>
+                <div class="size-box text-center mt-4">
+                        
+                    <h4><i class="fas fa-box" style="font-size: 30px; color:burlywood;"></i>  Seleziona misura scatola:</h4><select name="Stato" id="stato-ordine">
+                    <option value="Misura1">80 x 120 x 100</option>
+                    <option value="Misura2">80 x 59 x 40</option>
+                    <option value="Misura3">59 x 39 x 40</option></select>
+                </div>
+                <div class="note text-center mt-3">
+                    <h4><i class="fas fa-clipboard" style="color: royalblue;"></i>  Note:</h4><p>Il cliente vuole la scatola con misura 80 x 120 x 100</p></li>
+                </div>
+                <button type="button" class="btn-close-order"><h3>CONFERMA CHIUSURA ORDINE</h3></button></li>
+            </div>
+            <!-- / PANNELLO IPHONE -->
+        </div>
+    </main>
+    <!-- / MAIN -->
+
+
+    <!-- JS BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
